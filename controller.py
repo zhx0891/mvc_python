@@ -1,3 +1,6 @@
+import model
+
+
 def give_me_exp(strn):
     operations = ["+", "-", "*", "/"]
     str_spl = strn.split()
@@ -11,7 +14,7 @@ def give_me_exp(strn):
             return "не кореектные переменные"
     else:
         return "не корректная операция"
-        
+
 
 
 
